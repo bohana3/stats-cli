@@ -43,4 +43,4 @@ PS C:\Users\benjamin\go\src\github.com\bohana3\stats-cli> docker run -it stats-c
     "C:\\Users\\benjamin\\Downloads\\20171215_194251.jpg"\
   ]\
 }\
-2021/08/10 19:07:32 Finish stats-cli\
+2021/08/10 19:07:32 Finish stats-cli
