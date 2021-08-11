@@ -1,13 +1,14 @@
 # stats-cli
 
-Tool that performs statistics and aggregation for file metadata provided to it
+'stats-cli' is a tool that performs statistics and aggregation for file metadata provided to it in standard input.
+It uses the libary 'stats' that contains the data-structures that allow to perform the operations.
 
 The executable can be run from docker :)
 
-1. Build stats-cli docker:\
+1. Build 'stats-cli' docker:\
    docker build -t stats-cli .
    
-2. Run stats-cli docker as interactive process:\
+2. Run 'stats-cli' docker as interactive process:\
    docker run -it stats-cli
 
 It will capture the standard input. Need to press twice on Enter to stop the capture.\
