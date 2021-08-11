@@ -1,6 +1,6 @@
 # stats-cli
 
-'stats-cli' is a tool that performs statistics and aggregation for file metadata provided to it in standard input.
+'stats-cli' is a tool that performs statistics and aggregation for file metadata provided to it using standard input.
 It uses the libary 'stats' that contains the data-structures that allow to perform the operations.
 
 The executable can be run from docker :)
@@ -11,13 +11,14 @@ The executable can be run from docker :)
 2. Run 'stats-cli' docker as interactive process:\
    docker run -it stats-cli
 
-It will capture the standard input. Need to press twice on Enter to stop the capture.\
+3. Copy in the standard input the Metadata file files, then press twice Enter to stop the capture\
+
 \
 Example:\
 \
 PS C:\Users\benjamin\go\src\github.com\bohana3\stats-cli> docker run -it stats-cli\
 2021/08/10 19:06:40 Start stats-cli\
-2021/08/10 19:06:40 Enter Lines: (to stop the capture, press twice Enter!)\
+2021/08/10 19:06:40 Enter Metadata files: (one line per file - to stop the capture, press twice Enter!)\
 {"path": "C:\\Users\\benjamin\\Downloads\\010EditorWin64Installer801.exe","size": 16594864,"is_binary": true}\
 {"path": "C:\\Users\\benjamin\\Downloads\\1513735129.pdf","size": 1552691,"is_binary": false}\
 {"path": "C:\\Users\\benjamin\\Downloads\\1513739300.pdf","size": 1552691,"is_binary": false}\
