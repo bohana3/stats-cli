@@ -16,7 +16,7 @@ func main() {
 	//scan console standard input
 	scn := bufio.NewScanner(os.Stdin)
 	for {
-		log.Println("Enter Lines: (to stop the capture, press twice Enter!)")
+		log.Println("Enter Metadata files: (one line per file - to stop the capture, press twice Enter!)")
 		for scn.Scan() {
 			line := scn.Text()
 			if line == "" { //stop the scan if a empty line is detected
