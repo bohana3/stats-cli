@@ -11,7 +11,7 @@ The executable can be run from docker :)
 2. Run 'stats-cli' docker as interactive process:\
    docker run -it stats-cli
 
-3. Copy in the standard input the Metadata file files, then press twice Enter to stop the capture\
+3. Copy in the standard input the Metadata file files, then press twice Enter to stop the capture
 
 \
 Example:\
